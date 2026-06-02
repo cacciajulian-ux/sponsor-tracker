@@ -58,8 +58,9 @@ const CONTRACT_NOTES = {
   Bybit:
     '3 Stories/Mention en CriptoNorber (1 por mes)\n6 Menciones en Telegram y WhatsApp de CriptoNorber (2 por mes en cada canal)\n3 Menciones en Telegram de Joven Inversor (1 por mes)',
   NEXO: '2 Videos dedicados en YouTube de Joven Inversor\n2 Videos dedicados en YouTube de CriptoNorber\n3 Videos integrados (menciones) en YouTube de Joven Inversor\n2 Videos integrados (menciones) en YouTube de CriptoNorber\n12 Instagram Stories (6 Joven Inversor + 6 CriptoNorber)\n3 Tweets en X de CriptoNorber\n12 Mensajes en WhatsApp\n12 Mensajes en Telegram',
-  'BloFin',
-];
+  BloFin:
+    '6 YT Mencion/mes CriptoNorber – 6 Historias/mes CN – 3 Twitter/X/mes CN – 3 WhatsApp/mes CN – 3 Telegram/mes CN – 12 YT Mencion/mes Joven Inversor – 3 Historias/mes JI – 3 WhatsApp/mes JI – 3 Telegram/mes JI',
+};
 const NO_TRACK = ['Bullmarket'];
 const NEXO_ID = 2;
 const NEXO_COMPLETIONS = {
