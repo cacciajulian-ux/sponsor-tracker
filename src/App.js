@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 
 const SUPA_URL = 'https://rmpzdamnzhzgckznyupc.supabase.co';
 const SUPA_KEY = 'sb_publishable_qlVINMUvgUnX13V_4uskbA_tRhCPL0s';
-const SUPA_KEY_NAME = 'sponsor_tracker_v9';
+const SUPA_KEY_NAME = 'sponsor_tracker_v8';
 
 async function supaLoad() {
   try {
