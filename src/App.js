@@ -319,7 +319,6 @@ const INITIAL_DEALS = [
   },
 ];
 
-('part1 built');
 
 export default function App() {
   const [deals, setDeals] = React.useState(INITIAL_DEALS);
