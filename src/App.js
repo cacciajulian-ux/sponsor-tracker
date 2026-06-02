@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 
 const SUPA_URL = 'https://rmpzdamnzhzgckznyupc.supabase.co';
 const SUPA_KEY = 'sb_publishable_qlVINMUvgUnX13V_4uskbA_tRhCPL0s';
-const SUPA_KEY_NAME = 'sponsor_tracker_v8';
+const SUPA_KEY_NAME = 'sponsor_tracker_v9';
 
 async function supaLoad() {
   try {
@@ -58,22 +58,6 @@ const CONTRACT_NOTES = {
   Bybit:
     '3 Stories/Mention en CriptoNorber (1 por mes)\n6 Menciones en Telegram y WhatsApp de CriptoNorber (2 por mes en cada canal)\n3 Menciones en Telegram de Joven Inversor (1 por mes)',
   NEXO: '2 Videos dedicados en YouTube de Joven Inversor\n2 Videos dedicados en YouTube de CriptoNorber\n3 Videos integrados (menciones) en YouTube de Joven Inversor\n2 Videos integrados (menciones) en YouTube de CriptoNorber\n12 Instagram Stories (6 Joven Inversor + 6 CriptoNorber)\n3 Tweets en X de CriptoNorber\n12 Mensajes en WhatsApp\n12 Mensajes en Telegram',
-  Coindepo:
-    '1 Video mencion en canal de Joven Inversor\n1 Video mencion en canal de CriptoNorber',
-  Takenos:
-    '2 Historias por mes en Joven Inversor\n2 Historias por mes en CriptoNorber',
-  BloFin:
-    '6 YT Mencion/mes CriptoNorber \u2013 6 Historias/mes CN \u2013 3 Twitter/X/mes CN \u2013 3 WhatsApp/mes CN \u2013 3 Telegram/mes CN \u2013 12 YT Mencion/mes Joven Inversor \u2013 3 Historias/mes JI \u2013 3 WhatsApp/mes JI \u2013 3 Telegram/mes JI',
-};
-
-const DEAL_ORDER = [
-  'BingX',
-  'NEXO',
-  'Kraken',
-  'Bullmarket',
-  'Bybit',
-  'Takenos',
-  'Coindepo',
   'BloFin',
 ];
 const NO_TRACK = ['Bullmarket'];
@@ -304,64 +288,7 @@ const INITIAL_DEALS = [
         telegram: 0,
       },
     },
-  },
-  {
-    id: 5,
-    brand: 'Takenos',
-    contact: 'APP Agustin Natoli',
-    deadline: null,
-    budget: 4000,
-    influencers: ['CriptoNorber', 'Joven Inversor'],
-    actions: {
-      CriptoNorber: {
-        ytDedicado: 0,
-        ytMencion: 0,
-        historias: 0,
-        reelTiktok: 0,
-        twitter: 0,
-        whatsapp: 0,
-        telegram: 0,
-      },
-      'Joven Inversor': {
-        ytDedicado: 0,
-        ytMencion: 0,
-        historias: 0,
-        reelTiktok: 0,
-        twitter: 0,
-        whatsapp: 0,
-        telegram: 0,
-      },
-    },
-  },
-  {
-    id: 6,
-    brand: 'Coindepo',
-    contact: 'Wallet LV',
-    deadline: null,
-    budget: 10000,
-    influencers: ['CriptoNorber', 'Joven Inversor'],
-    actions: {
-      CriptoNorber: {
-        ytDedicado: 0,
-        ytMencion: 0,
-        historias: 0,
-        reelTiktok: 0,
-        twitter: 0,
-        whatsapp: 0,
-        telegram: 0,
-      },
-      'Joven Inversor': {
-        ytDedicado: 0,
-        ytMencion: 0,
-        historias: 0,
-        reelTiktok: 0,
-        twitter: 0,
-        whatsapp: 0,
-        telegram: 0,
-      },
-    },
-  },
-  {
+  }{
     id: 8,
     brand: 'BloFin',
     contact: '',
