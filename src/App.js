@@ -288,7 +288,8 @@ const INITIAL_DEALS = [
         telegram: 0,
       },
     },
-  }{
+  },
+  {
     id: 8,
     brand: 'BloFin',
     contact: '',
